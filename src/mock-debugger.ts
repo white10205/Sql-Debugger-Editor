@@ -11,8 +11,8 @@ export class MockDebugger {
     this.editor = editor
     this.variablesEl = document.getElementById('variables')!
 
-    // optionally track breakpoint decorations by reading model decorations
-    // for this demo we assume breakpoints are managed by the editor setup
+    // 可选：通过读取模型装饰来跟踪断点
+    // 在此示例中我们假定断点由编辑器初始化代码管理
   }
 
   private async pauseAt(line: number) {
@@ -25,7 +25,7 @@ export class MockDebugger {
   private showCurrentLineDecoration() {
     if (this.currentLine == null) return
 
-    // inject style once
+  // 仅注入一次当前行高亮样式
     if (!document.getElementById('current-line-style')) {
       const style = document.createElement('style')
       style.id = 'current-line-style'
@@ -38,7 +38,7 @@ export class MockDebugger {
       options: { isWholeLine: true, className: 'currentLine' }
     }]
 
-    // only replace the current-line decoration(s), keep other decorations (like breakpoints) intact
+    // 仅替换当前行的装饰，保留其他装饰（例如断点）不变
     this.currentLineDecorationIds = this.editor.deltaDecorations(this.currentLineDecorationIds, dec)
   }
 
@@ -49,7 +49,7 @@ export class MockDebugger {
   start() {
     if (this.running) return
     this.running = true
-    // if there are breakpoints set on the editor, start at the first one
+  // 如果编辑器上有断点，则从第一个断点开始
     const bps: Set<number> | undefined = (this.editor as any).__breakpoints
     if (bps && bps.size > 0) {
       const first = Array.from(bps).sort((a, b) => a - b)[0]
@@ -57,7 +57,7 @@ export class MockDebugger {
       return
     }
 
-    // otherwise find first non-empty line
+  // 否则查找第一个非空行开始执行
     const model = this.editor.getModel()!
     for (let i = 1; i <= model.getLineCount(); i++) {
       const txt = model.getLineContent(i).trim()
@@ -73,7 +73,7 @@ export class MockDebugger {
   }
 
   continue() {
-    // if there are breakpoints, continue to the next breakpoint after currentLine
+  // 如果存在断点，继续到当前行之后的下一个断点
     const bps: Set<number> | undefined = (this.editor as any).__breakpoints
     if (bps && bps.size > 0) {
       const sorted = Array.from(bps).sort((a, b) => a - b)
@@ -86,20 +86,20 @@ export class MockDebugger {
       return
     }
 
-    // fallback: simulate run until next random non-empty line
+  // 回退逻辑：模拟运行直到下一个随机的非空行
     const model = this.editor.getModel()!
     let next = this.currentLine ?? 1
     for (let i = next + 1; i <= model.getLineCount(); i++) {
       if (Math.random() > 0.6) { this.pauseAt(i); return }
     }
-    // finished
+    // 执行结束
     this.stop()
   }
 
   stop() {
     this.running = false
     this.currentLine = null
-    // remove only current-line decorations
+  // 仅移除当前行的装饰
     this.currentLineDecorationIds = this.editor.deltaDecorations(this.currentLineDecorationIds, [])
     this.updateVariables({})
   }
