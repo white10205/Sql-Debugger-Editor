@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "dap-server": "node server/mock-dap-server.js",
+    "server": "node server/mock-dap-server.js",
     "preview": "vite preview"
   },
   "dependencies": {
