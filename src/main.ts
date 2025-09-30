@@ -49,16 +49,16 @@ dap.onEvent(ev => {
 
 document.getElementById('btn-run')!.addEventListener('click', async () => {
   // send setBreakpoints from current breakpoints
-  const bps = Array.from((editor as any).__breakpoints || [])
-  await dap.sendRequest('setBreakpoints', { breakpoints: bps.map(l => ({ line: l })) })
+  const bps = (editor as any).__getBreakpointLines ? (editor as any).__getBreakpointLines() : Array.from((editor as any).__breakpoints || [])
+  await dap.sendRequest('setBreakpoints', { breakpoints: bps.map((l: number) => ({ line: l })) })
   await dap.sendRequest('launch', {})
 })
 
 document.getElementById('btn-step')!.addEventListener('click', async () => {
   // 如果还没有处于暂停态，先启动调试（会在第一个断点或第一行暂停）
   if (dbg.getCurrentLine() == null) {
-  const bps = Array.from((editor as any).__breakpoints || []) as number[]
-  await dap.sendRequest('setBreakpoints', { breakpoints: bps.map(l => ({ line: l })) })
+    const bps = (editor as any).__getBreakpointLines ? (editor as any).__getBreakpointLines() : Array.from((editor as any).__breakpoints || [])
+    await dap.sendRequest('setBreakpoints', { breakpoints: bps.map((l: number) => ({ line: l })) })
     await dap.sendRequest('launch', {})
   }
 

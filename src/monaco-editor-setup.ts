@@ -14,18 +14,30 @@ export function createEditor(container: HTMLElement) {
     minimap: { enabled: false }
   })
 
-  // 断点行号集合
-  const breakpoints = new Set<number>()
-  // 通过非标准属性暴露给调试器（仅示例用）
-  ;(editor as any).__breakpoints = breakpoints
   // 保存装饰 id 以便可以安全替换
   let breakpointDecorationIds: string[] = []
+  // 通过非标准属性暴露给调试器（仅示例用） - 外部读取当前断点行时请使用 __getBreakpointLines()
+  ;(editor as any).__getBreakpointLines = () => {
+    const model = editor.getModel()!
+    return breakpointDecorationIds.map(id => {
+      const range = model.getDecorationRange(id)
+      return range ? range.startLineNumber : -1
+    }).filter(n => n > 0)
+  }
+  // 为向后兼容提供一个动态的 __breakpoints 属性（返回一个 Set）
+  Object.defineProperty((editor as any), '__breakpoints', {
+    get() {
+      const lines = (editor as any).__getBreakpointLines() as number[]
+      return new Set(lines)
+    }
+  })
   // 悬停装饰 id（单个）
   let hoverDecorationId: string[] = []
 
   function updateBreakpointsUI() {
     const el = document.getElementById('breakpoints')!
-    el.textContent = Array.from(breakpoints).sort((a, b) => a - b).join(', ')
+    const lines = (editor as any).__getBreakpointLines() as number[]
+    el.textContent = Array.from(lines).sort((a, b) => a - b).join(', ')
   }
 
   // 确保样式只注入一次 - 使用伪元素使圆点在 gutter 中居中显示
@@ -58,10 +70,23 @@ export function createEditor(container: HTMLElement) {
   editor.onMouseDown(e => {
     if (e.target.type === monaco.editor.MouseTargetType.GUTTER_GLYPH_MARGIN) {
       const line = e.target.position!.lineNumber
-      if (breakpoints.has(line)) breakpoints.delete(line)
-      else breakpoints.add(line)
 
-      const newDecorations = Array.from(breakpoints).map(l => ({
+      // compute current breakpoint lines from decorations (handles edits that moved decorations)
+      const model = editor.getModel()!
+      const currentLines = breakpointDecorationIds.map(id => model.getDecorationRange(id))
+        .filter(Boolean)
+        .map(r => r!.startLineNumber)
+
+      let newLines: number[]
+      if (currentLines.indexOf(line) >= 0) {
+        // remove this line
+        newLines = currentLines.filter(l => l !== line)
+      } else {
+        // add this line
+        newLines = currentLines.concat([line])
+      }
+
+      const newDecorations = Array.from(newLines).map(l => ({
         range: new monaco.Range(l, 1, l, 1),
         options: {
           glyphMarginClassName: 'myBreakpoint',
@@ -80,7 +105,8 @@ export function createEditor(container: HTMLElement) {
     if (e.target.type === monaco.editor.MouseTargetType.GUTTER_GLYPH_MARGIN) {
       const line = e.target.position!.lineNumber
       // 如果该行已有断点，则不显示悬停图标；并移除任何已有的悬停装饰
-      if (breakpoints.has(line)) {
+      const existing = (editor as any).__getBreakpointLines() as number[]
+      if (existing.indexOf(line) >= 0) {
         if (hoverDecorationId.length) hoverDecorationId = editor.deltaDecorations(hoverDecorationId, [])
         return
       }

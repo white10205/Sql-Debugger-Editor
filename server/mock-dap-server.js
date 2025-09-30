@@ -20,13 +20,14 @@ server.on('connection', ws => {
       if (msg.command === 'initialize') {
         send(ws, { type: 'response', seq: seq++, request_seq: msg.seq, success: true, command: 'initialize', body: { supportsConfigurationDoneRequest: true } })
       } else if (msg.command === 'setBreakpoints') {
-        // store breakpoints in state
-        state.breakpoints = (msg.arguments && msg.arguments.breakpoints) ? msg.arguments.breakpoints.map(b => b.line) : []
+        // store breakpoints in state (normalize: unique & sorted)
+        const incoming = (msg.arguments && msg.arguments.breakpoints) ? msg.arguments.breakpoints.map(b => Number(b.line)) : []
+        state.breakpoints = Array.from(new Set(incoming)).sort((a,b)=>a-b)
         send(ws, { type: 'response', seq: seq++, request_seq: msg.seq, success: true, command: 'setBreakpoints', body: { breakpoints: state.breakpoints.map(l => ({ verified: true, line: l })) } })
       } else if (msg.command === 'launch') {
         // ack launch then send stopped event at first breakpoint or line 1
         send(ws, { type: 'response', seq: seq++, request_seq: msg.seq, success: true, command: 'launch' })
-        state.currentLine = (state.breakpoints && state.breakpoints.length > 0) ? state.breakpoints[0] : 1
+  state.currentLine = (state.breakpoints && state.breakpoints.length > 0) ? Math.min(...state.breakpoints) : 1
         send(ws, { type: 'event', seq: seq++, event: 'stopped', body: { reason: 'breakpoint', threadId: 1, line: state.currentLine } })
       } else if (msg.command === 'continue') {
         send(ws, { type: 'response', seq: seq++, request_seq: msg.seq, success: true, command: 'continue' })
