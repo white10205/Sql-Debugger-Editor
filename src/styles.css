@@ -1,0 +1,8 @@
+html,body,#app{height:100%;margin:0}
+#app{display:flex;flex-direction:column;height:100vh}
+.toolbar{display:flex;gap:8px;padding:8px;background:#f3f3f3}
+.container{display:flex;flex:1;gap:8px}
+.editor{flex:1;border-right:1px solid #ddd}
+.side{width:300px;padding:8px;box-sizing:border-box}
+.breakpoints{font-family:monospace}
+.variables{white-space:pre-wrap;font-family:monospace}
