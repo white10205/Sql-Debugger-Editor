@@ -22,6 +22,16 @@ export class MockDebugger {
     this.updateVariables({ line, message: 'Paused (mock)', rows: Math.floor(Math.random() * 10) })
   }
 
+  // 对外公开的方法：在指定行暂停（DAP 事件调用）
+  public pauseAtLine(line: number) {
+    this.pauseAt(line)
+  }
+
+  // 返回当前暂停的行（如果没有则返回 null）
+  public getCurrentLine(): number | null {
+    return this.currentLine
+  }
+
   private showCurrentLineDecoration() {
     if (this.currentLine == null) return
 

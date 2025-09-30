@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "dap-server": "node server/mock-dap-server.js",
     "preview": "vite preview"
   },
   "dependencies": {
     "monaco-editor": "^0.39.0",
     "monaco-languageclient": "^0.16.0",
-    "vscode-jsonrpc": "^6.0.0"
+    "vscode-jsonrpc": "^6.0.0",
+    "ws": "^8.18.3"
   },
   "devDependencies": {
     "typescript": "^5.0.4",
