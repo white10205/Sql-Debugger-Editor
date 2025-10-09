@@ -67,6 +67,7 @@ export function createEditor(container: HTMLElement) {
         document.head.appendChild(style)
     }
 
+    // 断点设置
     editor.onMouseDown(e => {
         if (e.target.type === monaco.editor.MouseTargetType.GUTTER_GLYPH_MARGIN) {
             const line = e.target.position!.lineNumber
