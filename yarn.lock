@@ -2,6 +2,714 @@
 # yarn lockfile v1
 
 
+"@codingame/monaco-vscode-08d1b4da-daf2-5f0d-8c50-ca6a6986c50f-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-08d1b4da-daf2-5f0d-8c50-ca6a6986c50f-common/-/monaco-vscode-08d1b4da-daf2-5f0d-8c50-ca6a6986c50f-common-20.2.1.tgz#4819167e3ee73f4e9e39ea414d5b010d94208068"
+  integrity sha512-2knRCAm0RMhRrBsQxpWPmCduNCoc03GqQs8Rkw6XupQYyZxNkgJPaoxdWrwZsmrx3FivCV6t/+ijl70X6dIRnQ==
+  dependencies:
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common" "20.2.1"
+
+"@codingame/monaco-vscode-0af61f78-dfc5-57ba-8d32-66268c8de38d-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-0af61f78-dfc5-57ba-8d32-66268c8de38d-common/-/monaco-vscode-0af61f78-dfc5-57ba-8d32-66268c8de38d-common-20.2.1.tgz#8fd2f9a0536d650ee65def83f68037e7c26c5556"
+  integrity sha512-6EvqHSjWuf5HhjHPv+CXurWq31QR+PrxnuWaRX3O+Qvse/hACIBlPXDAD8fDMn1YK9QSdf4rwds0zChbfpmosQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-b994942c-360d-5b68-8a33-77d4bde6b714-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-0c06bfba-d24d-5c4d-90cd-b40cefb7f811-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-0c06bfba-d24d-5c4d-90cd-b40cefb7f811-common/-/monaco-vscode-0c06bfba-d24d-5c4d-90cd-b40cefb7f811-common-20.2.1.tgz#1762a015c29585f43bfc2e7afa54b23e05c70182"
+  integrity sha512-PaB//D7uvOUay6TbPxt6GrVfRVQBF1JWe++3srdqAEn4vHS8yT3uS1GUI+ET0VPK4LNvkl5gEF04wC7y5fLXoQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+
+"@codingame/monaco-vscode-0cc5da60-f921-59b9-bd8c-a018e93c0a6f-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-0cc5da60-f921-59b9-bd8c-a018e93c0a6f-common/-/monaco-vscode-0cc5da60-f921-59b9-bd8c-a018e93c0a6f-common-20.2.1.tgz#9f521426bf7029fd318e8b537133b5352f1a0bd2"
+  integrity sha512-5Wk6XcM1BZyOopJ/XOea60FLNhx4ErrU4PYFwpb5NePlK6Bk27YPh1Bv3meohmRxr3WSdQymYGuRAdRj3stXoA==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common" "20.2.1"
+
+"@codingame/monaco-vscode-15626ec7-b165-51e1-8caf-7bcc2ae9b95a-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-15626ec7-b165-51e1-8caf-7bcc2ae9b95a-common/-/monaco-vscode-15626ec7-b165-51e1-8caf-7bcc2ae9b95a-common-20.2.1.tgz#72adc66617061a547e765adf307db23ba3681fa1"
+  integrity sha512-CXw/aLqqMDism6lyFXuR+5r/AIgl5UgTXm0xli8WK38LoqhYtRMVxk5vy6kbmtK3w5cA9XMKwWSO5NHS8XscTQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common/-/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common-20.2.1.tgz#8a05c3163131708eae7fde31889a89317047bd54"
+  integrity sha512-WuzU3yRkKwL8ZXiZyEAF5xeWqEebJu3rWBndQYsig/12wbfeqEwQBh7JwZBK1uc/1Cl8VN8wE1QpYQyC/C7m8g==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-23aade48-f094-5c08-9555-97fc9cca96c9-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-23aade48-f094-5c08-9555-97fc9cca96c9-common/-/monaco-vscode-23aade48-f094-5c08-9555-97fc9cca96c9-common-20.2.1.tgz#7d0986c92953e959f047d494d11c645b77474656"
+  integrity sha512-xV8T8zmmQhAb7NPz+0h6Z0R4IzdB3BcwXkYIKuANZLI2jeKdo+ixw2+FClCHGjGBycffmYqIISXecgixIJrJHw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-249dc928-1da3-51c1-82d0-45e0ba9d08a1-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-249dc928-1da3-51c1-82d0-45e0ba9d08a1-common/-/monaco-vscode-249dc928-1da3-51c1-82d0-45e0ba9d08a1-common-20.2.1.tgz#a4df02f30f2bf2804aed0e14a9439df49d77a5df"
+  integrity sha512-3MvmIwes9tLQd7FopLUtsocjRiej+dxbp+Eo5uQrPyV4sghyrhuSpe90mHM7MK3Pd/YNmtRXAem5EtRkWeyCog==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-256d5b78-0649-50e9-8354-2807f95f68f4-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-256d5b78-0649-50e9-8354-2807f95f68f4-common/-/monaco-vscode-256d5b78-0649-50e9-8354-2807f95f68f4-common-20.2.1.tgz#2375bbee6535e802b77484faea8e9c0cba1f7ff4"
+  integrity sha512-692CODk83dErjqKqdQKu87eKVV10lXXRNOS5tbbd3FqIdDiEYubocKDkTXSwZ5wVfQYmALaUEsfSN4XIqUVLAA==
+  dependencies:
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-262ed59d-4f76-57cd-9e9f-1877f26ae049-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-262ed59d-4f76-57cd-9e9f-1877f26ae049-common/-/monaco-vscode-262ed59d-4f76-57cd-9e9f-1877f26ae049-common-20.2.1.tgz#ad9b2e000ad2fb7811c9a5a4cf33c9b17c60fb74"
+  integrity sha512-MHK36sZwljQ+U3/wDrY57sN/iN6tM5+Xu4uBZpdnEorkoXq/Jg2q8dvVXw0qGvHfR80oT5i/dBdpcdytrR9ADA==
+  dependencies:
+    "@codingame/monaco-vscode-6883db80-c313-54eb-8fbc-5872c56b0326-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-2a94c04a-b85b-5669-b06b-89c1bfa11cb9-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-2a94c04a-b85b-5669-b06b-89c1bfa11cb9-common/-/monaco-vscode-2a94c04a-b85b-5669-b06b-89c1bfa11cb9-common-20.2.1.tgz#2b699e24684ee56ab36627552d0910a885a76a2d"
+  integrity sha512-R75FXTJR5mO1u57E3a5jBnEfxeIAPmRVEp5i+w9wGh/IkvQ/VidK1eH1g1lK/m2CRGcgzY6pYwMb7bbrOqzNHg==
+  dependencies:
+    "@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common" "20.2.1"
+    "@codingame/monaco-vscode-a8d3bd74-e63e-5327-96e8-4f931661e329-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-2f06fe84-148e-5e6b-a7ca-c7989c5f128a-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-2f06fe84-148e-5e6b-a7ca-c7989c5f128a-common/-/monaco-vscode-2f06fe84-148e-5e6b-a7ca-c7989c5f128a-common-20.2.1.tgz#14570327ce9db6fe555af68cd0320e208252403d"
+  integrity sha512-Gz5ukIwb/g+8KMhlAuPK2DaL5MkHJRpBk/jjsTGu7E1AvJWcxFMxk4Z0P3KhhZCwZxbAH2OmP3u6dAtHOGTc2Q==
+  dependencies:
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common/-/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common-20.2.1.tgz#cb436cdd016d9c7fe460c061f490b8ec3c41334b"
+  integrity sha512-y37l/C9r8jkWLRZDAiVYSK8kZdFjMvN0cxLrRbOL/O/TSKCa7sdT7fnmelwwSwY/moFVknrSUSJf1HLiZeB5yw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-40cada32-7e9c-528a-81fc-766e4da54147-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-40cada32-7e9c-528a-81fc-766e4da54147-common/-/monaco-vscode-40cada32-7e9c-528a-81fc-766e4da54147-common-20.2.1.tgz#90b6fa8f56f3eed8fa4e7f6e0a81516fef94b06d"
+  integrity sha512-wCxhPyTty6XWwgIl492WUCXI5Zuwxrhc+BgZPjm32GCk2D/MZMhJt/T7iH8ZkCIGtO1kIyHpBXDBJL7L2h2lag==
+  dependencies:
+    "@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common" "20.2.1"
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-422642f2-7e3a-5c1c-9e1e-1d3ef1817346-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-422642f2-7e3a-5c1c-9e1e-1d3ef1817346-common/-/monaco-vscode-422642f2-7e3a-5c1c-9e1e-1d3ef1817346-common-20.2.1.tgz#4f6b6070c2c0a2595387a1deac1298c7062b2e19"
+  integrity sha512-KiPs0Bz2NdBUbfN+SrbzAXmCK1n1sk4C/EBHcjAU9EFt+9Qs7vBWPbPL/a9uxsAn1yr3/ENKRA/sG9la3TJP6g==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common/-/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common-20.2.1.tgz#09f1d99e6333cfa98e05e87d3819a63133f6da3d"
+  integrity sha512-vjDxz1Vtnp7SXuh9IijlLyTH9Kz2gK432UiFGea3CyL9JRh6lF5MGl7r0qUeXQoyPoyTgvcUvhARnbSqtt3esw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common/-/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common-20.2.1.tgz#a63d2eb0c9dffa73d35880a0799bb059bd4bdcb2"
+  integrity sha512-5py+dgP5LT1LcK4mlWIc7GByW4Ft4u5MA0BimFTSAWY+B+32TlzUulXETLa3fdTBjthpPxZcfUivwKCIURe+Lw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-5452e2b7-9081-5f95-839b-4ab3544ce28f-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-5452e2b7-9081-5f95-839b-4ab3544ce28f-common/-/monaco-vscode-5452e2b7-9081-5f95-839b-4ab3544ce28f-common-20.2.1.tgz#1f582ac04cfb78a12bd2343c7c1fdeef5a3bd670"
+  integrity sha512-Doc26S+nDEsDT1CoLs4nB1wkEtg35HLZmig7xzObtw8b35pBXE9FmVe8aL/sowmSIb1fVflszunp8AyZGcyLpg==
+  dependencies:
+    "@codingame/monaco-vscode-0af61f78-dfc5-57ba-8d32-66268c8de38d-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-571c8352-7953-5038-9f09-e03bb6219a0e-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-571c8352-7953-5038-9f09-e03bb6219a0e-common/-/monaco-vscode-571c8352-7953-5038-9f09-e03bb6219a0e-common-20.2.1.tgz#3f49c62e3b33ae9ed77f5cdff936346590faf172"
+  integrity sha512-wnGmFRFs9LRMDkfuXhLgg/WnsMpI25N5br8eAj1+RiYv9LdbWhQZjXHY0Bba3HNrVGEvH7SxGZ3tBeH5mH77MQ==
+  dependencies:
+    "@codingame/monaco-vscode-249dc928-1da3-51c1-82d0-45e0ba9d08a1-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common/-/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common-20.2.1.tgz#eb12ef5ad518d8c0f7b26a762494735211913348"
+  integrity sha512-6JLv8gpbbHsqg91ImVt21OXcr8w+THi6yAzgzrlZo1ok9nU5ARY7XjiBCJTajleyMj9tLnn+LbAkqE7A3I7BnA==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-615ce609-8555-545a-a549-47bd9f80e9f8-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-615ce609-8555-545a-a549-47bd9f80e9f8-common/-/monaco-vscode-615ce609-8555-545a-a549-47bd9f80e9f8-common-20.2.1.tgz#4971f2100a138c73754429823303a54c2ac82811"
+  integrity sha512-PKvV+6yFq4zDXkqT8O5r/yu4quJsHECh0bRDp0SyJby3xayjyjVleY4Dp3KEgcifmAmBiaevY8+Qsoh8AqGa9A==
+  dependencies:
+    "@codingame/monaco-vscode-08d1b4da-daf2-5f0d-8c50-ca6a6986c50f-common" "20.2.1"
+    "@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-622c0cca-d5fa-59b6-b730-0715afcf93ee-common" "20.2.1"
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+    "@codingame/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common" "20.2.1"
+
+"@codingame/monaco-vscode-622c0cca-d5fa-59b6-b730-0715afcf93ee-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-622c0cca-d5fa-59b6-b730-0715afcf93ee-common/-/monaco-vscode-622c0cca-d5fa-59b6-b730-0715afcf93ee-common-20.2.1.tgz#3784e2860557e02d9cb0db54fb283917f078b3c8"
+  integrity sha512-7CJTGnACYkU4eZZz6ZgEUSacF1uVxgQp5PB/dDvTwjUHGSAoYDuYcUwGlRHiglhTM3OeWfr3bD1v93TM8t4tvQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common/-/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common-20.2.1.tgz#ca48e20fb851c6ba094d096a9220e9b7e0f8eac0"
+  integrity sha512-ju1ZXDXt7HRiXUQ56xgqno6aIBqT8DjCbGq4lEpbV4LCa0cEUTN1vnPvfv6h5XgVfxxV7AgG/0223aJH/FvCcQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+
+"@codingame/monaco-vscode-6845754f-e617-5ed9-8aaa-6ca3653a9532-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-6845754f-e617-5ed9-8aaa-6ca3653a9532-common/-/monaco-vscode-6845754f-e617-5ed9-8aaa-6ca3653a9532-common-20.2.1.tgz#ecdb48e963bae929916c082712c3f03618d8635d"
+  integrity sha512-4hmesrfHj/NSJg7mPpN8OxrQtOjI4DW1nU8IqLgxjcYzUG0lKtBbyAdYEnrvace70+1QpeufTf3QZBgnLemI7A==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-6883db80-c313-54eb-8fbc-5872c56b0326-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-6883db80-c313-54eb-8fbc-5872c56b0326-common/-/monaco-vscode-6883db80-c313-54eb-8fbc-5872c56b0326-common-20.2.1.tgz#71a7d4ea011731ac134ce4766c9765dc0d646cb8"
+  integrity sha512-LbKvvmNoE1outKNVNLZrlNxkmXbiX0ZmKc3epvDH/JsJMKzgP8BwObOuemwp0BjsAR2NVTtG0RPRUMFFACfJaA==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-6bf85d7b-e6e3-54e9-9bc1-7e08d663f0f6-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-6bf85d7b-e6e3-54e9-9bc1-7e08d663f0f6-common/-/monaco-vscode-6bf85d7b-e6e3-54e9-9bc1-7e08d663f0f6-common-20.2.1.tgz#8970d541b7077cc2a6ca35f95881037f9ccbf8db"
+  integrity sha512-+l9owwUpqkQgA9g0Mo23uQL2YoiMLEAZiR/rR4ti9T2OjRoejeH3FUjiutl+6Z7vq7WfSn2fl9DIqd6oC/BX8w==
+  dependencies:
+    "@codingame/monaco-vscode-0cc5da60-f921-59b9-bd8c-a018e93c0a6f-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-85886bdb-61c5-52f1-8eb7-d1d32f6f8cbd-common" "20.2.1"
+    "@codingame/monaco-vscode-96e83782-7f38-572e-8787-02e981f1c54f-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common" "20.2.1"
+
+"@codingame/monaco-vscode-6db1b967-5327-5c5c-8c17-bd92774c0fb2-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-6db1b967-5327-5c5c-8c17-bd92774c0fb2-common/-/monaco-vscode-6db1b967-5327-5c5c-8c17-bd92774c0fb2-common-20.2.1.tgz#c1f8414a0bcd3c114fbfa1d7568b77c8aec35f94"
+  integrity sha512-zYgzAYrrOgffttoGEG37f5VI4ZwpycZcoRA0wCPckk0rlTYAiHA4wabm8aR3H+IriWmAxBYqFyIg3b9EnsWWgA==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-6f931a91-88ea-5232-897f-a17ec3929ba5-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-6f931a91-88ea-5232-897f-a17ec3929ba5-common/-/monaco-vscode-6f931a91-88ea-5232-897f-a17ec3929ba5-common-20.2.1.tgz#873b3fc0c93edf3f91e4f5386451903bb09b35bf"
+  integrity sha512-5yQtd1/gHEUXrpvuZdGGBkJu4qesMspG/EyxPXEPWgWA03VsU+ZOv+J+pY6z9lQSKLrd0vMoBrZ+6Klg5TFQVw==
+  dependencies:
+    "@codingame/monaco-vscode-262ed59d-4f76-57cd-9e9f-1877f26ae049-common" "20.2.1"
+    "@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-72a1b7d3-3f58-5545-9b7e-f579bd003081-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-72a1b7d3-3f58-5545-9b7e-f579bd003081-common/-/monaco-vscode-72a1b7d3-3f58-5545-9b7e-f579bd003081-common-20.2.1.tgz#4f2e8b2d83f3f6f7b98ae7011404b897c8fbc4df"
+  integrity sha512-h12tZ7Q70p4YUcA3eEMxeg7L3SIoXC0Z6D4JqS+4N5FoXALKzk5vUw+RQBmpCpKisliwfMqBjoM/kj0dU56+GA==
+  dependencies:
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common" "20.2.1"
+
+"@codingame/monaco-vscode-7f39b6f1-3542-5430-8760-0f404d7a7cee-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-7f39b6f1-3542-5430-8760-0f404d7a7cee-common/-/monaco-vscode-7f39b6f1-3542-5430-8760-0f404d7a7cee-common-20.2.1.tgz#ba6c4dc195fa7520ae5e6d9e9a4ca0f6f5422e92"
+  integrity sha512-1M19sJ7ied1QvQN8V0zyPu1Rt0P2vzCGfDxsBhIMPsZpwUXDZ1k2P+HFQBjVshTlh0eQEvZNXWLs9yiuYl8I+g==
+  dependencies:
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-85886bdb-61c5-52f1-8eb7-d1d32f6f8cbd-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-85886bdb-61c5-52f1-8eb7-d1d32f6f8cbd-common/-/monaco-vscode-85886bdb-61c5-52f1-8eb7-d1d32f6f8cbd-common-20.2.1.tgz#c1b45168a781c7a37ceed3ac856412c1c9c75c4c"
+  integrity sha512-BjMRdAfVn3zb5l7RnlrgxSmSwCRFjeEYZQYbwa0EV6Jp0PBe2DFaOf2HZUrtVoLC6UlyC95DcDNcrmX8qdVAwA==
+  dependencies:
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-897bebad-39df-57cb-8a57-36a271d038be-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-897bebad-39df-57cb-8a57-36a271d038be-common/-/monaco-vscode-897bebad-39df-57cb-8a57-36a271d038be-common-20.2.1.tgz#b800c6e6946c96c9ce7d7fded67ab9b5dd3b5fc0"
+  integrity sha512-mYMsqVYVTLmoX9TYccX5QmEmcPGAuhnHSYu7KY7uNk/wPVeMmg/FQLyAMfXwPbmeSOcGlgD+qRLLBeapefVnFg==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-8ccb7637-50ea-5359-97bf-00015d7fe567-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-8ccb7637-50ea-5359-97bf-00015d7fe567-common/-/monaco-vscode-8ccb7637-50ea-5359-97bf-00015d7fe567-common-20.2.1.tgz#5ff07ff4185d1d3119d44aa74095228d2567a550"
+  integrity sha512-5IhDRyiRLPAysf2VD4KYrcGGeTkejwNRKoiXDWigd9PXdLcyJwv/ntvkY5KvcXf8CKUX6oBvdK3QYD0VegJmng==
+  dependencies:
+    "@codingame/monaco-vscode-6db1b967-5327-5c5c-8c17-bd92774c0fb2-common" "20.2.1"
+    "@codingame/monaco-vscode-897bebad-39df-57cb-8a57-36a271d038be-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-96e83782-7f38-572e-8787-02e981f1c54f-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-96e83782-7f38-572e-8787-02e981f1c54f-common/-/monaco-vscode-96e83782-7f38-572e-8787-02e981f1c54f-common-20.2.1.tgz#5839da0b80be39cd9a4fb3e02b7f361ba7220950"
+  integrity sha512-m/oReuik0SnYS8tofyH/B9Ne2mufr8wWPNfXNZeODmKgH/4A94IGc45TX+5yxcnENYYlaGb4SRzkTXe/CqzLBg==
+  dependencies:
+    "@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-ebba7d85-8a22-5735-adf4-8299cd976dce-common" "20.2.1"
+    "@codingame/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common" "20.2.1"
+
+"@codingame/monaco-vscode-9a1a5840-af83-5d07-a156-ba32a36c5c4b-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-9a1a5840-af83-5d07-a156-ba32a36c5c4b-common/-/monaco-vscode-9a1a5840-af83-5d07-a156-ba32a36c5c4b-common-20.2.1.tgz#3ee1035a7605a7e671cbe17393f65121fa0baade"
+  integrity sha512-KbwZGcSZrc85o/bQx6K+K5+tSmldEykFdwUrsELknfyrXzD7XDUHP4OAPmCB2tyMYx+2CtoDg1Ap8OpqlTM1bg==
+  dependencies:
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-9ee79c1a-3f03-568b-8eac-b02513a98b68-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-9ee79c1a-3f03-568b-8eac-b02513a98b68-common/-/monaco-vscode-9ee79c1a-3f03-568b-8eac-b02513a98b68-common-20.2.1.tgz#102c77e797185c2a55d0cc7fc6543be0fbe6b181"
+  integrity sha512-yMGrBy2R4M3pc69BXrGnHc4U6hdeCZRYFz08IlwOqmRIKEvETGEYARLMjNIKF7OSGtN72w/ogYdDw904Sr+Bwg==
+  dependencies:
+    "@codingame/monaco-vscode-262ed59d-4f76-57cd-9e9f-1877f26ae049-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-9efc1f50-c7de-55d6-8b28-bcc88bd49b5a-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-9efc1f50-c7de-55d6-8b28-bcc88bd49b5a-common/-/monaco-vscode-9efc1f50-c7de-55d6-8b28-bcc88bd49b5a-common-20.2.1.tgz#d88e16f7d1d0a5ec94c66f3968b38f9c278ab28a"
+  integrity sha512-07ZlQCLQYnJmdDz4j0aVertHJ6/ddEryLXn6u5LTG/GJNEQzFUUwr3O16i0TLqsCGYaGGZ4R1cZq5EbfF/Og2Q==
+  dependencies:
+    "@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-a8d3bd74-e63e-5327-96e8-4f931661e329-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-bc6d9a89-1625-5010-b57e-ff44151144fe-common" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+    "@codingame/monaco-vscode-ebba7d85-8a22-5735-adf4-8299cd976dce-common" "20.2.1"
+
+"@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common/-/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common-20.2.1.tgz#15546b30f968f06043d5b774f9b2da422cf3425c"
+  integrity sha512-rpurbDFIG1YSOZfciXFquEmOYDGXvfaimVBQpjY6WcF9V6x24KNJHnx3Wa06gaXJoaQ7M4ucRr1kN6ynJKtcNQ==
+  dependencies:
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-a654b07e-8806-5425-b124-18f03ba8e11a-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-a654b07e-8806-5425-b124-18f03ba8e11a-common/-/monaco-vscode-a654b07e-8806-5425-b124-18f03ba8e11a-common-20.2.1.tgz#7a81f8794a39ce6f6bbcdb6cb1a53947fcc9d6e4"
+  integrity sha512-pENxDpxf2HM93oG7fjI13M/4zxiDZuKnXIzGgfBPchHEQww0+ZBV9fzOHYrQySkntpowD9uoNeikhTKEtYkiIw==
+  dependencies:
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-a8d3bd74-e63e-5327-96e8-4f931661e329-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-a8d3bd74-e63e-5327-96e8-4f931661e329-common/-/monaco-vscode-a8d3bd74-e63e-5327-96e8-4f931661e329-common-20.2.1.tgz#820725ff0aeb2cc265148a1891f378e19ec91b23"
+  integrity sha512-JQLcPhCfxc4RMsSuIPKzYCXAKVGYNd262kqfjcVLwPznVVcCPbBe4fWu9khKnVEPE9bWDPO9o4iMOuUDLXu8/A==
+  dependencies:
+    "@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-a9da9abe-278d-5ce6-9418-99c7c07c5c37-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-a9da9abe-278d-5ce6-9418-99c7c07c5c37-common/-/monaco-vscode-a9da9abe-278d-5ce6-9418-99c7c07c5c37-common-20.2.1.tgz#72922765774a2cebb6da508d1cb13a95f7c37c3e"
+  integrity sha512-hqFZdyhyaRnetCP6km6f2QD4ZewOe2g6zNC4yX2fvmN1WkvkDiab1HLHEbl0iEcVWH4XB2RXTYAjBK/xkMfEXA==
+
+"@codingame/monaco-vscode-abed5a84-8a82-5f84-9412-88a736235bae-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-abed5a84-8a82-5f84-9412-88a736235bae-common/-/monaco-vscode-abed5a84-8a82-5f84-9412-88a736235bae-common-20.2.1.tgz#8da9de858406c070aaa3a8b1b0fe2409f26f5684"
+  integrity sha512-wi6SYca8DUN6D2/bjwCc6FxSyr9mB/o8z8JQDu2cd7HYjMg7SwfqLypiaxEOaYhJa84R/Om9s0dbcjBIxndAcQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-ac93482b-2178-52df-a200-ba0d1a4963fb-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-ac93482b-2178-52df-a200-ba0d1a4963fb-common/-/monaco-vscode-ac93482b-2178-52df-a200-ba0d1a4963fb-common-20.2.1.tgz#cb09acef3e4d0bb5893711cc43e8ebc809ce999b"
+  integrity sha512-rtg073ZjqdDZ8SIy502gMQRxX0S/ZxrqFZX/rWO1lDXagirWNbIhn0vPfwCM8ydCwPf4TEyTaOswflETW1Mu6A==
+  dependencies:
+    "@codingame/monaco-vscode-615ce609-8555-545a-a549-47bd9f80e9f8-common" "20.2.1"
+    "@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common" "20.2.1"
+    "@codingame/monaco-vscode-72a1b7d3-3f58-5545-9b7e-f579bd003081-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-bd0792ac-6043-5ec3-a41a-54ccb922a1f4-common" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common" "20.2.1"
+    "@codingame/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common" "20.2.1"
+
+"@codingame/monaco-vscode-api@20.2.1", "@codingame/monaco-vscode-api@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-api/-/monaco-vscode-api-20.2.1.tgz#285d0623ad029c8baf702870f1c64445bbf0a211"
+  integrity sha512-V0U7srsbChsugxi4HP/Q9Xrzw1eajB3UfGUN7l+EYkZK72kChtXoNTyds1wiUfNwsQIt4C6MIwyOQqOCrPY5Lw==
+  dependencies:
+    "@codingame/monaco-vscode-base-service-override" "20.2.1"
+    "@codingame/monaco-vscode-environment-service-override" "20.2.1"
+    "@codingame/monaco-vscode-extensions-service-override" "20.2.1"
+    "@codingame/monaco-vscode-files-service-override" "20.2.1"
+    "@codingame/monaco-vscode-host-service-override" "20.2.1"
+    "@codingame/monaco-vscode-layout-service-override" "20.2.1"
+    "@codingame/monaco-vscode-quickaccess-service-override" "20.2.1"
+    "@vscode/iconv-lite-umd" "0.7.0"
+    dompurify "3.2.6"
+    jschardet "3.1.4"
+    marked "14.0.0"
+
+"@codingame/monaco-vscode-b994942c-360d-5b68-8a33-77d4bde6b714-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-b994942c-360d-5b68-8a33-77d4bde6b714-common/-/monaco-vscode-b994942c-360d-5b68-8a33-77d4bde6b714-common-20.2.1.tgz#471d7e2c690fa31b7e8a03840a9d1fda6bf13420"
+  integrity sha512-D5q+XtmzMFHwVX9/2kp8woXMhnfGaRwv5CBWxQM4SGRJzfbDE+43K1ngNWazyK8r5+7QUYEjJmVWsDeh0LQTCQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-base-service-override@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-base-service-override/-/monaco-vscode-base-service-override-20.2.1.tgz#5da4017e5b2dc09650ad536af262bef645881e33"
+  integrity sha512-U+XrQIXmhwrKwO/wntLxk9ZySMviDFd+1XbjCuZFBs++SYYk8p7vul93SyfAs7MVz37Vdp13XULJzYqZObEDDw==
+  dependencies:
+    "@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common" "20.2.1"
+    "@codingame/monaco-vscode-23aade48-f094-5c08-9555-97fc9cca96c9-common" "20.2.1"
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-9a1a5840-af83-5d07-a156-ba32a36c5c4b-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-d987325e-3e05-53aa-b9ff-6f97476f64db-common" "20.2.1"
+
+"@codingame/monaco-vscode-bc6d9a89-1625-5010-b57e-ff44151144fe-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-bc6d9a89-1625-5010-b57e-ff44151144fe-common/-/monaco-vscode-bc6d9a89-1625-5010-b57e-ff44151144fe-common-20.2.1.tgz#af0415e3dcf2b6cf42182fe1bb3d188611f1c39c"
+  integrity sha512-rPJKfOtFMZ+rX9uSj0ibs78odA3WwdT16QMDBvMx+l9KeTB3axNONSo577CHsx/zaTK98cwAhJD8gh4iyA/iKQ==
+  dependencies:
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-bd0792ac-6043-5ec3-a41a-54ccb922a1f4-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-bd0792ac-6043-5ec3-a41a-54ccb922a1f4-common/-/monaco-vscode-bd0792ac-6043-5ec3-a41a-54ccb922a1f4-common-20.2.1.tgz#be4b99a978c55b5a5d612213cc5d66e2bfd18b57"
+  integrity sha512-iQlIMzfM0McG9694DOGeChv5VSIBT2i3Ex56xUgBFFipmpn7GQTZKrtkl1UydhpW1IaP4T6rzV5TOvB4IrKegQ==
+  dependencies:
+    "@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-615ce609-8555-545a-a549-47bd9f80e9f8-common" "20.2.1"
+    "@codingame/monaco-vscode-72a1b7d3-3f58-5545-9b7e-f579bd003081-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+    "@codingame/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common" "20.2.1"
+    "@codingame/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common" "20.2.1"
+
+"@codingame/monaco-vscode-bf94ddb5-e436-506a-9763-5ab86b642508-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-bf94ddb5-e436-506a-9763-5ab86b642508-common/-/monaco-vscode-bf94ddb5-e436-506a-9763-5ab86b642508-common-20.2.1.tgz#95b6eb3f744646627e4733afc40fa74c3ebb53a9"
+  integrity sha512-8Yju8mAt25Z7bygULthr3nal7/kjf2OYBZDy71A5+NNxeOdlkhxPvlawaJ2Xr2mVlKstBBJ15vvcyPStdEHJSw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common/-/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common-20.2.1.tgz#0cef77abee2f226ca8569b0b4b8131c54f8d19b1"
+  integrity sha512-/RVKGRcuaRzXPEr+tHATIXu0441ZG99YMZCETDiSfleQ03DuB7itdW5nMj9pKzKGKXqenWgcRKV1pqJCfpMbjw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-ce7c734f-7712-563c-9335-d7acb43306af-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-ce7c734f-7712-563c-9335-d7acb43306af-common/-/monaco-vscode-ce7c734f-7712-563c-9335-d7acb43306af-common-20.2.1.tgz#173f7b9fce1c7816c936ce8c810562acca6259a6"
+  integrity sha512-KvhAG6OM3Xi+aTBA10u2bjw/ClHerBbStouoXZwLozKBXJLrawk5JrP9lyc3rDeMd865uGNe2GDdlT4MnXzQsA==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-cea4d01f-6526-5c2f-8b09-b168fead499f-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-cea4d01f-6526-5c2f-8b09-b168fead499f-common/-/monaco-vscode-cea4d01f-6526-5c2f-8b09-b168fead499f-common-20.2.1.tgz#a699025c88d2812ad650d3ad7a910c80ba9ac3b9"
+  integrity sha512-X6pMLGw7VP/q8R+HoULf0sOlSDkwOWJg7s9SBetHY02cpfllmtDHKfZlB/DyxwfIwChypZebYvEzwjWSAzk0IQ==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-configuration-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-configuration-service-override/-/monaco-vscode-configuration-service-override-20.2.1.tgz#48b59c6a9760b62345cf600de8ab96d0bdec3464"
+  integrity sha512-Cak6szK7coRFQBi7YTbjqeSV2RUvFMaZaLkmZn7TWoSJleNwwUGotAE3Gl3f1dctXtKXXq9lh//h6PXWwviqkw==
+  dependencies:
+    "@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common" "20.2.1"
+    "@codingame/monaco-vscode-422642f2-7e3a-5c1c-9e1e-1d3ef1817346-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-ce7c734f-7712-563c-9335-d7acb43306af-common" "20.2.1"
+    "@codingame/monaco-vscode-d987325e-3e05-53aa-b9ff-6f97476f64db-common" "20.2.1"
+    "@codingame/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common" "20.2.1"
+    "@codingame/monaco-vscode-files-service-override" "20.2.1"
+
+"@codingame/monaco-vscode-d0569cfb-4706-5ad6-b0b0-5115ad8685db-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-d0569cfb-4706-5ad6-b0b0-5115ad8685db-common/-/monaco-vscode-d0569cfb-4706-5ad6-b0b0-5115ad8685db-common-20.2.1.tgz#5baeef8b6b885df48821c9dd9bded822e8f78fa6"
+  integrity sha512-KiUFtr157EffTrqbBbXIfHz1Zsykb6qDJIaR/ltl3Zfux6cncEE6hxvAlqdPSK/o+/122UnrBYCFBH8MQUOoCQ==
+  dependencies:
+    "@codingame/monaco-vscode-0af61f78-dfc5-57ba-8d32-66268c8de38d-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-b994942c-360d-5b68-8a33-77d4bde6b714-common" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-d609a7d3-bf87-551a-884f-550a8b327ec5-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-d609a7d3-bf87-551a-884f-550a8b327ec5-common/-/monaco-vscode-d609a7d3-bf87-551a-884f-550a8b327ec5-common-20.2.1.tgz#089118fa7cd9ab5103e20e1870f3a3e8484f0ee7"
+  integrity sha512-6uG+28Zj39LD2HrfuMYwIz42imewq0xgKPreI0BoyDqaRNzWkCQlRbP9JDUHK9ZFnfPFImfxrmQJkFx82WWCsA==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common/-/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common-20.2.1.tgz#89d7bfa29a35b0f1ce84ec54b9c23fe245122ad9"
+  integrity sha512-J1GtOd6fiBVV2NWgWtQUgXd2iWE07/23lb8p5cGDChbmvnYReKNLNEmrrnXGRiptN1PokiJXzmanSc9C1dX/Uw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-d987325e-3e05-53aa-b9ff-6f97476f64db-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-d987325e-3e05-53aa-b9ff-6f97476f64db-common/-/monaco-vscode-d987325e-3e05-53aa-b9ff-6f97476f64db-common-20.2.1.tgz#55a88e477145fa02e048a896dfc28e239e68e541"
+  integrity sha512-X10AYZvaKJtPC5SpvW3IIu92kZSn4flvpTiD2n8iyPgs8HF98TIfhyYkreR17gfKVbh2tOS0KAMGD3fORV+srA==
+
+"@codingame/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common/-/monaco-vscode-dbfe5f85-b426-55ed-a79b-5f811b395762-common-20.2.1.tgz#ab152a591844ac6622cbae8e02ad3fcbcbfa2c93"
+  integrity sha512-dDTxW7RAUyzksMC7DHrF7Z5z80SdV6rx/aADjmy12OVHTqf4Dltxy73WF0NxIhjSGHVAOqheBQ6kwgl4xqqc0g==
+  dependencies:
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-bc6d9a89-1625-5010-b57e-ff44151144fe-common" "20.2.1"
+
+"@codingame/monaco-vscode-eb7d5efd-2e60-59f8-9ba4-9a8ae8cb2957-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-eb7d5efd-2e60-59f8-9ba4-9a8ae8cb2957-common/-/monaco-vscode-eb7d5efd-2e60-59f8-9ba4-9a8ae8cb2957-common-20.2.1.tgz#5de6c3412338b9501e698c9cdaca1f5033670ad5"
+  integrity sha512-QO6e8HCjoJzT7HQyP1ysqHW+5uGQz3gTZA9F9cqCSzbSdig7SEPZ1CFeZaCcxifTSVe/koel0AVf4c4qDl1Zaw==
+  dependencies:
+    "@codingame/monaco-vscode-262ed59d-4f76-57cd-9e9f-1877f26ae049-common" "20.2.1"
+    "@codingame/monaco-vscode-501b06ab-3f58-516b-8a1a-c29d375d3da4-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-9ee79c1a-3f03-568b-8eac-b02513a98b68-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-eba0b9b3-174c-5dae-9867-a37810ca1808-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-eba0b9b3-174c-5dae-9867-a37810ca1808-common/-/monaco-vscode-eba0b9b3-174c-5dae-9867-a37810ca1808-common-20.2.1.tgz#7159bc8c535d7f8baf34eb68dbe67701e53790e5"
+  integrity sha512-fjhb02OSNCCEvzumxpnH7CF+8hV3/8iEFjm1qOTodczWjvdWa+BhaiUEBt4NueQ8IR/8UtIW9Iq1a0TwOJF2xw==
+  dependencies:
+    "@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-ebba7d85-8a22-5735-adf4-8299cd976dce-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-ebba7d85-8a22-5735-adf4-8299cd976dce-common/-/monaco-vscode-ebba7d85-8a22-5735-adf4-8299cd976dce-common-20.2.1.tgz#6c4353a38e926b51dea12d239f0a79b0c596698a"
+  integrity sha512-IaEfEIpOatIxm2iJAopML1ocDkAx/kL+GmN8nSEih1q+1JyLjU8qY3hCZratK0rApjKTWnJCVkZ5hvapLsWpJw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-eda30bac-0984-5b42-9362-c68996b85232-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-eda30bac-0984-5b42-9362-c68996b85232-common/-/monaco-vscode-eda30bac-0984-5b42-9362-c68996b85232-common-20.2.1.tgz#eb022b31f4cde24e7249f7d2ae2e6217b85eb511"
+  integrity sha512-HRs+VzEls/SYZeNCPXVkNfPH48ODuYLjSPDNGhW0pwaDnX28nmmchXIH6bc6Og4GFtMSn5eRw1pgBNCkAbljNw==
+  dependencies:
+    "@codingame/monaco-vscode-622c0cca-d5fa-59b6-b730-0715afcf93ee-common" "20.2.1"
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-editor-api@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-editor-api/-/monaco-vscode-editor-api-20.2.1.tgz#c5eef13c9d8cebe9951a218f9df3ee9d5c9c7fdf"
+  integrity sha512-f+e6Lchp/aW2J5lEqkULP8NF4PGRayVG2/X90HN7ydlWAIr/WDZfVDmP2XhmnTZXfAhCoYQWWljtHMQWY7aSyw==
+  dependencies:
+    "@codingame/monaco-vscode-5452e2b7-9081-5f95-839b-4ab3544ce28f-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-editor-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-editor-service-override/-/monaco-vscode-editor-service-override-20.2.1.tgz#6c77a70e31c92f5931e48b90f13297189bdb92df"
+  integrity sha512-Oetg/Ammu5aaBoFkGYTwNN+iTTsRO45eyY66hjjFFGGaLrcKKpFlgpGjZ7uIXcp8P8QCyPBAYHdEeJ2jFKceGg==
+  dependencies:
+    "@codingame/monaco-vscode-72a1b7d3-3f58-5545-9b7e-f579bd003081-common" "20.2.1"
+    "@codingame/monaco-vscode-9efc1f50-c7de-55d6-8b28-bcc88bd49b5a-common" "20.2.1"
+    "@codingame/monaco-vscode-ac93482b-2178-52df-a200-ba0d1a4963fb-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-environment-service-override@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-environment-service-override/-/monaco-vscode-environment-service-override-20.2.1.tgz#8d281837cf7d49c6c1e58fe150088079d2bae652"
+  integrity sha512-+jJ2UfaiBJF949UYBg8+X9xf/sQGDjXRWQOlbV/084iX8ao0zed5GmCcxkCNQEncWGhoc/79z8F0+BlAJhqsbw==
+  dependencies:
+    "@codingame/monaco-vscode-abed5a84-8a82-5f84-9412-88a736235bae-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-extension-api@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-extension-api/-/monaco-vscode-extension-api-20.2.1.tgz#1ec35fd9e5624e6a18bf7f5e3cf6667fb35b1998"
+  integrity sha512-K2VFVhQZUpBS+YJRr4DYgvNjelu7dWw81YWg8PwEVj7X8vSd9DqQZbTvudsiJDhlkkY4KWqZQjtITY0fc/X3QQ==
+  dependencies:
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-extensions-service-override" "20.2.1"
+
+"@codingame/monaco-vscode-extensions-service-override@20.2.1", "@codingame/monaco-vscode-extensions-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-extensions-service-override/-/monaco-vscode-extensions-service-override-20.2.1.tgz#c3f3d7e98faa71d33c5f00142f32636816054582"
+  integrity sha512-+/m/ZrGyBpfj80f2g0U42OSMhSaXCZNULUKyIM+Amm5TqcaonJ6VysGEga48QO3SGHqzdBRSJJRwR5MNhQAbOw==
+  dependencies:
+    "@codingame/monaco-vscode-0af61f78-dfc5-57ba-8d32-66268c8de38d-common" "20.2.1"
+    "@codingame/monaco-vscode-256d5b78-0649-50e9-8354-2807f95f68f4-common" "20.2.1"
+    "@codingame/monaco-vscode-2a94c04a-b85b-5669-b06b-89c1bfa11cb9-common" "20.2.1"
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common" "20.2.1"
+    "@codingame/monaco-vscode-571c8352-7953-5038-9f09-e03bb6219a0e-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-622c0cca-d5fa-59b6-b730-0715afcf93ee-common" "20.2.1"
+    "@codingame/monaco-vscode-670aae94-7f88-54d7-90ea-6fcbef423557-common" "20.2.1"
+    "@codingame/monaco-vscode-6845754f-e617-5ed9-8aaa-6ca3653a9532-common" "20.2.1"
+    "@codingame/monaco-vscode-6f931a91-88ea-5232-897f-a17ec3929ba5-common" "20.2.1"
+    "@codingame/monaco-vscode-7f39b6f1-3542-5430-8760-0f404d7a7cee-common" "20.2.1"
+    "@codingame/monaco-vscode-8ccb7637-50ea-5359-97bf-00015d7fe567-common" "20.2.1"
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-a654b07e-8806-5425-b124-18f03ba8e11a-common" "20.2.1"
+    "@codingame/monaco-vscode-a8d3bd74-e63e-5327-96e8-4f931661e329-common" "20.2.1"
+    "@codingame/monaco-vscode-a9da9abe-278d-5ce6-9418-99c7c07c5c37-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-b994942c-360d-5b68-8a33-77d4bde6b714-common" "20.2.1"
+    "@codingame/monaco-vscode-bf94ddb5-e436-506a-9763-5ab86b642508-common" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-d0569cfb-4706-5ad6-b0b0-5115ad8685db-common" "20.2.1"
+    "@codingame/monaco-vscode-eb7d5efd-2e60-59f8-9ba4-9a8ae8cb2957-common" "20.2.1"
+    "@codingame/monaco-vscode-eba0b9b3-174c-5dae-9867-a37810ca1808-common" "20.2.1"
+    "@codingame/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common" "20.2.1"
+    "@codingame/monaco-vscode-files-service-override" "20.2.1"
+
+"@codingame/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common/-/monaco-vscode-f22e7e55-aee8-5b52-a6bc-950efd9f5890-common-20.2.1.tgz#79c8caa902b570b5e2b4231dd11590dab50bf91d"
+  integrity sha512-HrUgIIQpWkMcGy7fHQFX7y3FOCP0Hetb85lDvZCSf+XiXcz/4YP193bHp3BA+zwRFanD7RWTSrwXFbC3BVPnlQ==
+  dependencies:
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-d941ac7b-412f-57e3-b1bf-f6b0eb253b21-common" "20.2.1"
+
+"@codingame/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common/-/monaco-vscode-f24e325c-2ce0-5bba-8236-bfc4f53180ab-common-20.2.1.tgz#f93ee218befafb15a3a290cea7993ee9690e3172"
+  integrity sha512-R+8qheGjNfJthnO4Qr0zs+x7Ylcw5/g7One5V/izemVoK2hPC4yGSRyF0V1OcAjkqDxJsOvcSU0GrstEVnOI0g==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-files-service-override@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-files-service-override/-/monaco-vscode-files-service-override-20.2.1.tgz#95c2dd45639a0a489974d15beab0b6c9868eeea2"
+  integrity sha512-p+3Ycbc5VOwOxH5QkhKvgDavOhGQCk5e7aa4Z0ERtkWst5CF8q0xqQbcke1UBjwLbst2Pt0kRuGXz7FolikzZA==
+  dependencies:
+    "@codingame/monaco-vscode-0c06bfba-d24d-5c4d-90cd-b40cefb7f811-common" "20.2.1"
+    "@codingame/monaco-vscode-15626ec7-b165-51e1-8caf-7bcc2ae9b95a-common" "20.2.1"
+    "@codingame/monaco-vscode-2f06fe84-148e-5e6b-a7ca-c7989c5f128a-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+    "@codingame/monaco-vscode-cea4d01f-6526-5c2f-8b09-b168fead499f-common" "20.2.1"
+
+"@codingame/monaco-vscode-host-service-override@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-host-service-override/-/monaco-vscode-host-service-override-20.2.1.tgz#cfd6d36dccfcebe967e6414430dca2b150d75453"
+  integrity sha512-Q3jSzf39M8dMPNbsmrHaJRDBvIX+9ZzEoieXZf5HnK6UBxULKLXdj0mO1xzZD/4AfxfMQTumHAG8PNkVPJ2NnQ==
+  dependencies:
+    "@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common" "20.2.1"
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-60014c9d-b815-501d-83a9-4b08725c2ec2-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-languages-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-languages-service-override/-/monaco-vscode-languages-service-override-20.2.1.tgz#55a76f5da8ecbfea58804c2f286a2963571c80dd"
+  integrity sha512-q8MVHEOb4o7p2YMdvW5q3e6U+yL6BVHQJB8JqHgmQ0eTx5gK99PtOCpIst3Tot4CmLiCLcMl8av7NH5nwNDexw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-files-service-override" "20.2.1"
+
+"@codingame/monaco-vscode-layout-service-override@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-layout-service-override/-/monaco-vscode-layout-service-override-20.2.1.tgz#8c3dc77df5913043e18f3355348a3a47c6d5c5b8"
+  integrity sha512-P2857Tn7ZX5Xi/DgbxfMjJpXiBwI7+ACmUoQTAPBnKam40ZG7EdNS31s02BUVUx22JmDzBbVJ3vYDCCKaeRJHw==
+  dependencies:
+    "@codingame/monaco-vscode-6bf85d7b-e6e3-54e9-9bc1-7e08d663f0f6-common" "20.2.1"
+    "@codingame/monaco-vscode-85886bdb-61c5-52f1-8eb7-d1d32f6f8cbd-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-localization-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-localization-service-override/-/monaco-vscode-localization-service-override-20.2.1.tgz#7ff4bcd7b057e259431b4277122032f273958d9c"
+  integrity sha512-DHLSu88FWHBSY724GuPIA/sLdIw/j0Bdj3LwdzN46T5R+VV3H7sqtqTLBbs+aY3r9GweNUus3GkwjWZXXGNq/Q==
+  dependencies:
+    "@codingame/monaco-vscode-a654b07e-8806-5425-b124-18f03ba8e11a-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+
+"@codingame/monaco-vscode-log-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-log-service-override/-/monaco-vscode-log-service-override-20.2.1.tgz#8dca8431b8c8a2808c9a518da6e61687a8f92cba"
+  integrity sha512-CUTxmqqFeu8Sbw24ot6S3wSQDE5DOTMHrK3gC/heNjkWDPXQTu10QteWnBekfP5Czbm+huXUDljL41BVHoD5rQ==
+  dependencies:
+    "@codingame/monaco-vscode-abed5a84-8a82-5f84-9412-88a736235bae-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-cea4d01f-6526-5c2f-8b09-b168fead499f-common" "20.2.1"
+    "@codingame/monaco-vscode-environment-service-override" "20.2.1"
+
+"@codingame/monaco-vscode-model-service-override@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-model-service-override/-/monaco-vscode-model-service-override-20.2.1.tgz#167a1a02acf57640a11131822e7f25b9128af0ff"
+  integrity sha512-ff/hBbV1ERU6dcoCJSkBZyg1BvJ8JOmmDt8rmoaWMNoub3hdsmvA87jKw1iblhv/EtKYL0R9J25+6e9LIU2FAQ==
+  dependencies:
+    "@codingame/monaco-vscode-0c06bfba-d24d-5c4d-90cd-b40cefb7f811-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-caeb744c-8e3f-5c11-80fb-0f057d24d544-common" "20.2.1"
+
+"@codingame/monaco-vscode-quickaccess-service-override@20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-quickaccess-service-override/-/monaco-vscode-quickaccess-service-override-20.2.1.tgz#5616febd3a82134f17ac965489fd84b242e6f99d"
+  integrity sha512-bx5dbe60EPOBesHcC0kJySmmix72vQvRLf2cBl7J3Xncs4yaShlaaScgwL5BwmlNIdpMD8Ay0vN1AOT38PKrkQ==
+  dependencies:
+    "@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common" "20.2.1"
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-40cada32-7e9c-528a-81fc-766e4da54147-common" "20.2.1"
+    "@codingame/monaco-vscode-9a1a5840-af83-5d07-a156-ba32a36c5c4b-common" "20.2.1"
+    "@codingame/monaco-vscode-a17e9d37-b6c1-5556-8402-5db73960fae3-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-d609a7d3-bf87-551a-884f-550a8b327ec5-common" "20.2.1"
+    "@codingame/monaco-vscode-eda30bac-0984-5b42-9362-c68996b85232-common" "20.2.1"
+
 "@esbuild/aix-ppc64@0.21.5":
   version "0.21.5"
   resolved "https://registry.npmmirror.com/@esbuild/aix-ppc64/-/aix-ppc64-0.21.5.tgz#c7184a326533fcdf1b8ee0733e21c713b975575f"
@@ -232,6 +940,35 @@
   resolved "https://registry.npmmirror.com/@types/estree/-/estree-1.0.8.tgz#958b91c991b1867ced318bedea0e215ee050726e"
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
+
+"@vscode/iconv-lite-umd@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.npmmirror.com/@vscode/iconv-lite-umd/-/iconv-lite-umd-0.7.0.tgz#d2f1e0664ee6036408f9743fee264ea0699b0e48"
+  integrity sha512-bRRFxLfg5dtAyl5XyiVWz/ZBPahpOpPrNYnnHpOpUZvam4tKH35wdhP4Kj6PbM0+KdliOsPzbGWpkxcdpNB/sg==
+
+balanced-match@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
+  integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+brace-expansion@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/brace-expansion/-/brace-expansion-2.0.2.tgz#54fc53237a613d854c7bd37463aad17df87214e7"
+  integrity sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==
+  dependencies:
+    balanced-match "^1.0.0"
+
+dompurify@3.2.6:
+  version "3.2.6"
+  resolved "https://registry.npmmirror.com/dompurify/-/dompurify-3.2.6.tgz#ca040a6ad2b88e2a92dc45f38c79f84a714a1cad"
+  integrity sha512-/2GogDQlohXPZe6D6NOgQvXLPSYBqIWMnZ8zzOhn09REE4eyAzb+Hed3jhoM9OkuaJ8P6ZGTTVWQKAi8ieIzfQ==
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
+
 esbuild@^0.21.3:
   version "0.21.5"
   resolved "https://registry.npmmirror.com/esbuild/-/esbuild-0.21.5.tgz#9ca301b120922959b766360d8ac830da0d02997d"
@@ -266,10 +1003,45 @@ fsevents@~2.3.2, fsevents@~2.3.3:
   resolved "https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
+jschardet@3.1.4:
+  version "3.1.4"
+  resolved "https://registry.npmmirror.com/jschardet/-/jschardet-3.1.4.tgz#fff6e3c4b7867b361c2acc3870c42ea25d4f675b"
+  integrity sha512-/kmVISmrwVwtyYU40iQUOp3SUPk2dhNCMsZBQX0R1/jZ8maaXJ/oZIzUOiyOqcgtLnETFKYChbJ5iDC/eWmFHg==
+
+marked@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.npmmirror.com/marked/-/marked-14.0.0.tgz#79a1477358a59e0660276f8fec76de2c33f35d83"
+  integrity sha512-uIj4+faQ+MgHgwUW1l2PsPglZLOLOT1uErt06dAPtx2kjteLAkbsd/0FiYg/MGS+i7ZKLb7w2WClxHkzOOuryQ==
+
+minimatch@^5.1.0:
+  version "5.1.6"
+  resolved "https://registry.npmmirror.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
+  integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
+  dependencies:
+    brace-expansion "^2.0.1"
+
 monaco-editor@^0.21.1:
   version "0.21.3"
   resolved "https://registry.npmmirror.com/monaco-editor/-/monaco-editor-0.21.3.tgz#3381b66614b64d1c5e3b77dd5564ad496d1b4e5d"
   integrity sha512-9N7wATLpi+googstvtm6IKg97vPQ77FDYEpkow5tLriM/VJ0DaTRyUP4UVzcoH7KlPDX+e/rE7/imcOUeGkT6g==
+
+monaco-languageclient@9.11.0:
+  version "9.11.0"
+  resolved "https://registry.npmmirror.com/monaco-languageclient/-/monaco-languageclient-9.11.0.tgz#a5a9bc124481fa21f964e8ec221609d4d24e1eef"
+  integrity sha512-76aEPzISqQF/6W6eAonWWcAiAqYsNlo7CeKxhAgXokGEw51mS4SraEumwhyHeb0uM6KWkTpzEdxShXxBAmbtGw==
+  dependencies:
+    "@codingame/monaco-vscode-api" "~20.2.1"
+    "@codingame/monaco-vscode-configuration-service-override" "~20.2.1"
+    "@codingame/monaco-vscode-editor-api" "~20.2.1"
+    "@codingame/monaco-vscode-editor-service-override" "~20.2.1"
+    "@codingame/monaco-vscode-extension-api" "~20.2.1"
+    "@codingame/monaco-vscode-extensions-service-override" "~20.2.1"
+    "@codingame/monaco-vscode-languages-service-override" "~20.2.1"
+    "@codingame/monaco-vscode-localization-service-override" "~20.2.1"
+    "@codingame/monaco-vscode-log-service-override" "~20.2.1"
+    "@codingame/monaco-vscode-model-service-override" "~20.2.1"
+    vscode "npm:@codingame/monaco-vscode-extension-api@~20.2.1"
+    vscode-languageclient "~9.0.1"
 
 nanoid@^3.3.11:
   version "3.3.11"
@@ -321,6 +1093,11 @@ rollup@^4.20.0:
     "@rollup/rollup-win32-x64-msvc" "4.52.3"
     fsevents "~2.3.2"
 
+semver@^7.3.7:
+  version "7.7.3"
+  resolved "https://registry.npmmirror.com/semver/-/semver-7.7.3.tgz#4b5f4143d007633a8dc671cd0a6ef9147b8bb946"
+  integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
+
 source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
@@ -341,6 +1118,55 @@ vite@^5.0.0:
     rollup "^4.20.0"
   optionalDependencies:
     fsevents "~2.3.3"
+
+vscode-jsonrpc@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.npmmirror.com/vscode-jsonrpc/-/vscode-jsonrpc-8.2.0.tgz#f43dfa35fb51e763d17cd94dcca0c9458f35abf9"
+  integrity sha512-C+r0eKJUIfiDIfwJhria30+TYWPtuHJXHtI7J0YlOmKAo7ogxP20T0zxB7HZQIFhIyvoBPwWskjxrvAtfjyZfA==
+
+vscode-jsonrpc@~8.2.1:
+  version "8.2.1"
+  resolved "https://registry.npmmirror.com/vscode-jsonrpc/-/vscode-jsonrpc-8.2.1.tgz#a322cc0f1d97f794ffd9c4cd2a898a0bde097f34"
+  integrity sha512-kdjOSJ2lLIn7r1rtrMbbNCHjyMPfRnowdKjBQ+mGq6NAW5QY2bEZC/khaC5OR8svbbjvLEaIXkOq45e2X9BIbQ==
+
+vscode-languageclient@~9.0.1:
+  version "9.0.1"
+  resolved "https://registry.npmmirror.com/vscode-languageclient/-/vscode-languageclient-9.0.1.tgz#cdfe20267726c8d4db839dc1e9d1816e1296e854"
+  integrity sha512-JZiimVdvimEuHh5olxhxkht09m3JzUGwggb5eRUkzzJhZ2KjCN0nh55VfiED9oez9DyF8/fz1g1iBV3h+0Z2EA==
+  dependencies:
+    minimatch "^5.1.0"
+    semver "^7.3.7"
+    vscode-languageserver-protocol "3.17.5"
+
+vscode-languageserver-protocol@3.17.5:
+  version "3.17.5"
+  resolved "https://registry.npmmirror.com/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.5.tgz#864a8b8f390835572f4e13bd9f8313d0e3ac4bea"
+  integrity sha512-mb1bvRJN8SVznADSGWM9u/b07H7Ecg0I3OgXDuLdn307rl/J3A9YD6/eYOssqhecL27hK1IPZAsaqh00i/Jljg==
+  dependencies:
+    vscode-jsonrpc "8.2.0"
+    vscode-languageserver-types "3.17.5"
+
+vscode-languageserver-types@3.17.5:
+  version "3.17.5"
+  resolved "https://registry.npmmirror.com/vscode-languageserver-types/-/vscode-languageserver-types-3.17.5.tgz#3273676f0cf2eab40b3f44d085acbb7f08a39d8a"
+  integrity sha512-Ld1VelNuX9pdF39h2Hgaeb5hEZM2Z3jUrrMgWQAu82jMtZp7p3vJT3BzToKtZI7NgQssZje5o0zryOrhQvzQAg==
+
+vscode-ws-jsonrpc@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.npmmirror.com/vscode-ws-jsonrpc/-/vscode-ws-jsonrpc-3.5.0.tgz#d41735762aece5d2d3a4f3784fc29238ccd78b4f"
+  integrity sha512-13ZDy7Od4AfEPK2HIfY3DtyRi4FVsvFql1yobVJrpIoHOKGGJpIjVvIJpMxkrHzCZzWlYlg+WEu2hrYkCTvM0Q==
+  dependencies:
+    vscode-jsonrpc "~8.2.1"
+
+"vscode@npm:@codingame/monaco-vscode-extension-api@~20.2.1":
+  version "20.2.1"
+  resolved "https://registry.npmmirror.com/@codingame/monaco-vscode-extension-api/-/monaco-vscode-extension-api-20.2.1.tgz#1ec35fd9e5624e6a18bf7f5e3cf6667fb35b1998"
+  integrity sha512-K2VFVhQZUpBS+YJRr4DYgvNjelu7dWw81YWg8PwEVj7X8vSd9DqQZbTvudsiJDhlkkY4KWqZQjtITY0fc/X3QQ==
+  dependencies:
+    "@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common" "20.2.1"
+    "@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common" "20.2.1"
+    "@codingame/monaco-vscode-api" "20.2.1"
+    "@codingame/monaco-vscode-extensions-service-override" "20.2.1"
 
 ws@^8.18.3:
   version "8.18.3"

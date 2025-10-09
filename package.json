@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "monaco-editor": "^0.21.1",
+    "monaco-languageclient": "9.11.0",
+    "vscode-ws-jsonrpc": "^3.5.0",
     "ws": "^8.18.3"
   },
   "devDependencies": {
